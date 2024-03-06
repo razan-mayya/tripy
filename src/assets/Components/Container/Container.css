@@ -1,0 +1,17 @@
+.popcontainer,.pict,.texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    
+}
+.popcontainer{
+    width: 85vw;
+    margin: 7% auto;
+}
+.pict,.texts{
+    width: 47%;
+}
+.texts{
+    flex-direction: column;
+}
